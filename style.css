@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "editorial new light";
+}
+.main{
+    background-color: #222;
+    overflow:hidden;
+}
+
+.page1{
+    width: 100vw;
+    min-height:100vh;
+    background-color: #C4BCB2;
+    padding-bottom: 30px;
+}
+.page1 .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 1px solid #5c5a5a;
+ 
+}
+.page1 .nav img{
+    height: 20px;
+}
+.page1 .nav h3{
+    font-weight: 400;
+    font-size: .8rem;
+    opacity: .8;
+}
+.page1 .nav i{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.adv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.ad-img{
+    width: 100%;
+    height: 160px;
+    border: 1px solid #222;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ad-img img{
+    transition: all .5s ease-in  ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ad-img img:hover{
+    scale: 1.1;
+}
+.adv-elm{
+    width: 30%;
+    cursor: pointer;
+}
+.adv-elm h2{
+    font-family: "Canopee regular" !important;
+    text-transform: uppercase;
+}
+.adv-elm h2 span{
+    font-size: .9rem;
+    background-color: #B84118;
+    padding: 3px;
+    color:#e7e7e7;
+    border-radius: 3px;
+}
+.adv-elm p{
+    width: 100%;
+    padding: 10px 0;
+    opacity: .9;
+}
+.adv-head{
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.adv-head h1{
+    font-family: "Canopee regular";
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: -3px;
+}
+.adv-head p span{
+    font-family: "Canopee regular";
+}
+.adv-head p{
+    opacity: .8;
+}
+.adv-head h3{
+    width: 70%;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    opacity: .7;
+}
+.mirand {
+    width: 100vw;
+    height :fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mirand h1{
+    font-family:"Canopee regular" ;
+    font-size: 32vw;
+    background-color:rgb(37, 37, 37);
+    color: #C4BCB2;
+    padding: 0 20px;    
+    font-weight: 400;
+}
+.page2{
+    width: 100%;
+    max-height: 100%;
+    padding: 50px;
+    background-color: #C4BCB2;
+    display: flex;
+}
+.p-left{
+    width: 30vw;
+    height: 150vh;
+}
+.p-left h1{
+    font-family:"Canopee regular" ;
+    font-size: 7vw;
+    font-weight: 600;
+    text-align: center;
+
+}
+.p-left .para{
+    width: 100%;
+    height: 270px;
+}
+.p-left .para p{
+    font-size: 2vw;
+    opacity: .7;
+}
+.p-left .para p span{
+    font-family:"Canopee regular" ;
+    background-color: #000000;
+    color: #e7e7e7;
+    font-size: 6vw;
+    padding: 0 5px;
+}
+.p-left img{
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid #222;
+}
+.p-right{
+    width: 60vw;
+    height: 150vh;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-left: 1px solid #5c5a5a;
+}
+.p-right img{
+    width: 100%;
+    border: 1px solid #222;
+    margin-bottom: 20px;
+}
+.p-right h1{
+    font-family:"Canopee regular" ;
+    font-size: 7vw;
+    font-weight: 500;
+    
+}
+.page3{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #C4BCB2;
+}
+.p3-head{
+    display: flex;
+    padding: 10px 30px;
+    justify-content:space-between;
+}
+.p3-head h1{
+    font-family:"Canopee regular" ;
+    font-size: 25vw;
+    background-color: #222;
+    color: #C4BCB2;
+    height: fit-content;
+    padding: 0 20px;
+}
+.p3-left{
+    width: 60%;
+    margin: 10px 30px;
+}
+.p3-elm{
+    display: flex;
+}
+.p3-elm1{
+    padding-right:  30px;
+}
+.p3-elm1 h1{
+    font-family:"Canopee regular" ;
+    font-size: 3rem;
+}
+.p3-elm1 h3{
+    width: 300px;
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: .7;
+    margin: 10px 0;
+}
+.p3-elm1 p span{
+    font-family:"Canopee regular" ;
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+.p3-elm1 p{
+    font-size: 1.4rem;
+    opacity: .7;
+}
+.p3-elm2{
+    padding: 0 30px;
+    border-left: 1px solid #5c5a5a;
+    cursor: pointer;
+}
+.elm2-img{
+    width: 100%;
+    height: 60%;
+    background-color: #000000;
+    overflow: hidden;
+}
+.elm2-img img:hover{
+    scale:1.2;
+}
+.elm2-img img{
+    width: 100%;
+    height:100%;
+    transition: all ease-in 1s;
+    object-fit: cover;
+    object-position: top;
+}
+.p3-elm2 h2{
+    font-family:"Canopee regular" ;
+    margin: 10px 0;
+}
+.p3-elm2 p{
+    opacity: .7;
+    
+}
+.p3-left>img{
+    width: 100%;
+    margin: 20px 0 ;
+}
+.p3-body{
+    display: flex;
+}
+.p3-right{
+    width: 30%;
+    height: 100%;
+    padding-left: 20px;
+    border-left: 1px solid #5c5a5a;
+}
+.p3-right h2{
+    font-family:"Canopee regular" ;
+    font-size: 5vw;
+    color: #222;
+}
+.p3-right h1{
+    font-size: 12vw;
+    font-family:"Canopee regular" ;
+    color: #222;
+}
+.p3-right p{
+    font-size: 2vw;
+    margin: 40px 0;
+    opacity: .7;
+}
+.p3-btn{
+    border: 1px solid #222;
+    padding: 0px 50px;
+    border-radius: 50%;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.p3-btn h5{
+    font-family:"Canopee regular" ;
+    font-size: 3vw;
+    transform: translateX(-60px);
+    transition: all linear .5s;
+}
+.p3-btn img{
+    transform: translateX(-200px);
+    transition: all linear .5s;
+}
+.p3-btn:hover h5{
+    transform: translateX(220px);
+}
+.p3-btn:hover img{
+    transform: translateX(50px);
+}
